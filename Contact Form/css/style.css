@@ -1,0 +1,15 @@
+/* Reset Css */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-color: pink; */
+    width: 100vw;
+    min-height: 100vh;
+    background-image: linear-gradient(to right bottom, #18A2C9, #72C3BD);
+
+}
