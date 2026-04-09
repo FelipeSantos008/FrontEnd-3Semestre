@@ -1,15 +1,119 @@
+/*  */
+
+@font-face {
+    font-family: Architects;
+    src: url(../css/fonts/Architects_Daughter/ArchitectsDaughter-Regular.ttf);
+}
+
 /* Reset Css */
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     /* background-color: pink; */
     width: 100vw;
     min-height: 100vh;
     background-image: linear-gradient(to right bottom, #18A2C9, #72C3BD);
+    background-repeat: no-repeat;
+}
 
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    /* border: 1px solid white; */
+
+}
+
+.container--flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-header__image-perfil {
+    width: 100px;
+    padding: 20px;
+
+    box-shadow: 0 0 7px rgba(222, 210, 124, 0.2);
+}
+
+.form-header__title {
+    color: #DED27C;
+    font-family: Architects, sans-serif;
+}
+
+.form-header__text {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Formulário de contato */
+.form-contact {
+    padding: 20px;
+}
+
+.form-contact__linha {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%;
+    /* height: 60px; */
+    /* border: 1px solid yellowgreen; */
+}
+
+.form-contact__col-a {
+    width: 10%;
+    height: 100%;
+    /* border: 1px solid red; */
+}
+
+.form-contact__col-b {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 100%;
+    /* border: 1px solid red; */
+}
+
+/* tudo oq é padrão nos inputs ficará aq */
+.form-contact__input {
+    padding: 5px 10px;
+    color: #18A2C9;
+    height: 35px;
+    border: none;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+    outline: none;
+    border-radius: 3px;
+    transition: background-color 0.4s, color 0.4s;
+}
+.form-contact__input::placeholder{
+    color: #18A2C9;
+}
+.form-contact__input:focus {
+    background-color: #18A2C9;
+    color: white;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
+
+}
+
+.form-contact__input--metade {
+    /* deixar espaço pra trabalhar entre eles */
+    width: 48%;
+}
+
+.form-contact__label {
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.form-contact__input--inteiro{
+    width: 100%;
 }

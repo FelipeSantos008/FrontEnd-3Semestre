@@ -1,12 +1,65 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro de Contatos</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
-    
+    <header class="form-header">
+        <div class="container container--flex">
+            <img src="./images/mdi_drivers-license-outline.png" alt="Imagem do usuário ilustrativo"
+                class="form-header__image-perfil" />
+            <h1 class="form-header__title">Contatc Form</h1>
+            <p class="form-header__text">Insira os dados de cadastro e clique em cadastrar.</p>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <form class="form-contact" action="">
+
+                
+                <div class="form-contact__linha">
+                    <div class="form-contact__col-a">
+                        <label class="form-contact__label" for="nome">Nome</label>
+                    </div>
+                    <div class="form-contact__col-b">
+                        <input class="form-contact__input form-contact__input--metade" type="text" id="nome" name="nome" placeholder="Nome">
+                        <input class="form-contact__input form-contact__input--metade" type="text" id="sobrenome" name="sobrenome" placeholder="sobrenome">
+                    </div>
+                </div>
+                
+                <div class="form-contact__linha">
+                    <div class="form-contact__col-a">
+                        <label class="form-contact__label" for="nome">Email</label>
+                    </div>
+                    <div class="form-contact__col-b">
+                        <input class="form-contact__input form-contact__input--inteiro" type="email" id="email" name="Email" placeholder="E-mail">
+                    </div>
+                </div>
+
+                <div class="form-contact__linha">
+                    <div class="form-contact__col-a">
+                        <label class="form-contact__label" for="nome">Nome</label>
+                    </div>
+                    <div class="form-contact__col-b">
+                        <input class="form-contact__input form-contact__input--terco" type="text" id="nome" name="nome" placeholder="Nome">
+                        <input class="form-contact__input form-contact__input--terco" type="text" id="sobrenome" name="sobrenome" placeholder="sobrenome">
+                        <input class="form-contact__input form-contact__input--terco" type="text" id="sobrenome" name="sobrenome" placeholder="sobrenome">
+                    </div>
+                </div>
+
+
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        Todos os direitos reservados
+    </footer>
 </body>
+
 </html>
