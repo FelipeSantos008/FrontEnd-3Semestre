@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro de Contatos</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./responsivo/responsivo.css">
 </head>
 
 <body>
@@ -21,20 +22,22 @@
         <div class="container">
             <form class="form-contact" action="">
 
-                
+
                 <div class="form-contact__linha">
                     <div class="form-contact__col-a">
                         <label class="form-contact__label" for="nome">Nome</label>
                     </div>
                     <div class="form-contact__col-b">
-                        <input class="form-contact__input form-contact__input--metade" type="text" id="nome" name="nome" placeholder="Nome">
-                        <input class="form-contact__input form-contact__input--metade" type="text" id="sobrenome" name="sobrenome" placeholder="sobrenome">
+                        <input class="form-contact__input form-contact__input--metade" type="" id="nome" name="nome"  placeholder="Nome">
+                        <input class="form-contact__input form-contact__input--metade" type="text" id="sobrenome" name="sobrenome" placeholder="Sobrenome">
                     </div>
                 </div>
-                
+
+
+
                 <div class="form-contact__linha">
                     <div class="form-contact__col-a">
-                        <label class="form-contact__label" for="nome">Email</label>
+                        <label class="form-contact__label" for="email">Email</label>
                     </div>
                     <div class="form-contact__col-b">
                         <input class="form-contact__input form-contact__input--inteiro" type="email" id="email" name="Email" placeholder="E-mail">
@@ -43,23 +46,71 @@
 
                 <div class="form-contact__linha">
                     <div class="form-contact__col-a">
-                        <label class="form-contact__label" for="nome">Nome</label>
+                        <label class="form-contact__label" for="telefone">Telefone</label>
                     </div>
                     <div class="form-contact__col-b">
-                        <input class="form-contact__input form-contact__input--terco" type="text" id="nome" name="nome" placeholder="Nome">
-                        <input class="form-contact__input form-contact__input--terco" type="text" id="sobrenome" name="sobrenome" placeholder="sobrenome">
-                        <input class="form-contact__input form-contact__input--terco" type="text" id="sobrenome" name="sobrenome" placeholder="sobrenome">
+                        <input class="form-contact__input form-contact__input--terco" type="number" id="numeroPais" name="numeroPais" placeholder="+55">
+                        <input class="form-contact__input form-contact__input--terco" type="number" id="ddd" name="ddd" placeholder="ddd">
+                        <input class="form-contact__input form-contact__input--terco" type="number" id="exemplo" name="exemplo" placeholder="ex . 987654321234">
                     </div>
                 </div>
 
+                <div class="form-contact__linha">
+                    <div class="form-contact__col-a">
+                        <label class="form-contact__label" for="endereco">Endereço</label>
+                    </div>
+                    <div class="form-contact__col-b">
+                        <input class="form-contact__input form-contact__input--quarto" type="text" id="cep" name="cep" placeholder="CEP">
+                        <input class="form-contact__input form-contact__input--metade" type="text" id="rua" name="rua"
+                            placeholder="Rua">
+                        <input class="form-contact__input form-contact__input--quarto" type="text" id="numeroCasa" name="numero" placeholder="Numero casa">
+                    </div>
+                </div>
 
+                <div class="form-contact__linha">
+                    <div class="form-contact__col-a">
+                        <label class="form-contact__label" for="endereco"></label>
+                    </div>
+                    <div class="form-contact__col-b">
+                        <input class="form-contact__input form-contact__input--terco" type="text" id="aptoBloco" name="aptoBloco" placeholder="Apto. x Bloco y">
+                        <input class="form-contact__input form-contact__input--terco" type="text" id="bairro" name="bairro" placeholder="Bairro">
+                        <input class="form-contact__input form-contact__input--terco" type="text" id="cidade" name="cidade" placeholder="Cidade">
+                    </div>
+                </div>
+                <div class="form-contact__linha">
+                    <div class="form-contact__col-a">
+                        <label class="form-contact__label" for=""></label>
+                    </div>
+                    <div class="form-contact__col-b">
+                        <input class="form-contact__input form-contact__input--terco" type="text" id="complemento" name="Complemento" placeholder="Complemento">
+                    </div>
+                </div>    
+
+                    <div class="form-contact__linha--anotacao">
+                        <div class="form-contact__col-a">
+                            <label class="form-contact__label" for="nome">Anotações</label>
+                        </div>
+                        <div class="form-contact__col-b">
+                            <textarea class="form-contact__input form-contact__input--area" name="Anotações"
+                                id="anotacoes">Suas anotações aqui</textarea>
+                        </div>
+                    </div>
+
+
+                    <div class="botoes">
+                               <button onclick="validarFormulario()" class="btn-submit">Cadastrar</button>
+                               <button class="btn-submit">Limpar</button>
+                           </div>
             </form>
         </div>
+
     </main>
 
     <footer>
         Todos os direitos reservados
     </footer>
+
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
