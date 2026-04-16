@@ -1,0 +1,73 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "a title",
+      "views": 100
+    },
+    {
+      "id": "2",
+      "title": "another title",
+      "views": 200
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "contatos": [
+    {
+      "id": "1",
+      "nome": "Felipe",
+      "sobrenome": " Silva dos Santos"
+    },
+    {
+      "id": "2",
+      "nome": "Jorge",
+      "sobrenome": " Gomes"
+    },
+    {
+      "nome": "Jefferson",
+      "sobrenome": " Silva dos Santos",
+      "id": "DjtJ9f97Hyo"
+    },
+    {
+      "nome": "natalia",
+      "sobrenome": "alema",
+      "id": "AqAk0FTr20Y"
+    },
+    {
+      "nome": "cleber",
+      "sobrenome": "portifolio",
+      "id": "FuWA81xxZXU"
+    },
+    {
+      "nome": "felipe",
+      "sobrenome": "Silva",
+      "email": "felipe.12@gmail.com",
+      "numeroPais": "55",
+      "ddd": "11",
+      "exemplo": "93652545325696",
+      "cep": "04240000",
+      "rua": "Rua Anny",
+      "numeroCasa": "503",
+      "aptoBloco": "",
+      "bairro": "São João Clímaco",
+      "cidade": "São Paulo",
+      "complemento": "casa 2",
+      "id": "Ufdkx32tdQc"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

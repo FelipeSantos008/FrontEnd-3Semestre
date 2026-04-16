@@ -1,0 +1,75 @@
+/* DESKTOP FIRST */
+/* DESKTOP >= 992 até  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* desktop */
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* breakpoint | Ponto de quebra do layout */
+/* tablets (768 até 991px)*/
+@media screen and (max-width: 991px) {
+    
+}
+
+/* smartphones (oc até 767px)*/
+@media (max-width: 767px){
+    .form-header_contact-form{
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .form-header__text{
+        text-align: center;
+        padding: 0 15px;
+    }
+
+    .form-contact__linha{
+        flex-direction: column;
+        align-items: stretch;
+        gap: 8px;
+    }
+
+    .form-contact__col-a{
+        display: none;
+    }
+
+    .form-contact__col-b{
+        width: 100%;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .form-contact__input--metade,
+    .form-contact__input--terco,
+    .form-contact__input--quarto,
+    .form-contact__input--inteiro{
+        width: 100%;
+    }
+
+    .form-contact_textarea{
+        height: 180px;
+    }
+
+    .form-contact__col-b-botoes{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .form-contact__col-b-botoes button{
+        width: 100%;
+    }
+
+    .form-contact__footer{
+        font-size: 14px;
+        text-align: center;
+        padding: 10px;
+    }
+}
