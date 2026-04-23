@@ -1,0 +1,39 @@
+{
+  "usuarios": [
+    {
+      "nome": "Ronaldo Pinto",
+      "idade": 67,
+      "email": "Ronaldo67@gmail.com",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "nome": "Jefferson Games",
+      "idade": 26,
+      "email": "jEFFERSONgAMES@gmail.com"
+    },
+    {
+      "nome": "Glauber Hortifrutti",
+      "idade": 34,
+      "email": "hortiGlauber@gmail.com",
+      "id": "1w_auewEYU4"
+    }
+  ],
+  "post": [
+    {
+      "texto": "gatinho lindo",
+      "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/09/decifrar-o-que-seu-gato-quer-dizer.jpg?w=1200&h=1200&crop=1",
+      "qtdCurtidas": "1700",
+      "id": "1"
+    },
+    {
+      "texto": "oi posso?",
+      "imagem": "https://i.pinimg.com/736x/9b/0e/15/9b0e15a2676c1c67ff61157dda6d57f8.jpg",
+      "qtdCurtidas": "12000",
+      "id": "MLwTPkm19Uc"
+    }
+  ],
+  "frutas": [],
+  "jogos": [],
+  "$schema": "./node_modules/json-server/schema.json"
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .corsim {
+            color: green;
+        }
+
+        .cornao {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" name="fruta" id="Digite o nome o da fruta">
+    <select name="" id="nomeClasse">
+        <option value="">Selecione</option>
+        <option value="cornao">Cornao</option>
+        <option value="corsim">Corsim</option>
+    </select>
+    <button onclick="cadastrarFruta();" type="button">Cadastrar</button>
+
+    <ul id="listaFrutas">
+        <li class="corsim">Amora</li>
+    </ul>
+
+      <script>
+        function cadastrarFruta() {
+            const nomeFruta = document.getElementById("Digite o nome o da fruta").value;
+            const nomeClasse = document.getElementById("nomeClasse").value;
+            const listaFrutas = document.getElementById("listaFrutas");
+
+            console.log(nomeFruta); 
+            console.log(nomeClasse);
+            console.log(listaFrutas);
+
+                if(nomeFruta.trim().length == 0 || nomeClasse.trim().length == 0) {
+                    alert("Preencha todos os campos!");
+                    return false;
+                }
+
+                //cadstra a fruta
+            listaFrutas.innerHTML += `<li class="${nomeClasse}">${nomeFruta}</li>`;
+
+            //limpar campo
+        document.getElementById("nomeFruta").value = "";
+        document.getElementById("nomeClasse").value = "";
+        }
+      </script>
+
+</body>
+</html>
