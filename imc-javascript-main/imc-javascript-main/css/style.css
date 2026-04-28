@@ -105,7 +105,9 @@ table tbody tr:nth-child(even) { background-color: #f6d6a8; }
 table tbody { text-align: center; }
 
 
-table td:first-of-type { text-align: left; }
+table td:first-of-type {
+     text-align: left; 
+    text-transform: capitalize;}
 
 /* tablets */
 
