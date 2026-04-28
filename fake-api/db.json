@@ -117,5 +117,28 @@
       "id": "z9MnwKtGDfI"
     }
   ],
+  "calculadora": [
+    {
+      "n1": 68234235614023370000,
+      "n2": 3092384,
+      "op": "divisao",
+      "resultado": "22065253090826.81",
+      "id": "C-b4h5fDopo"
+    },
+    {
+      "n1": 2020,
+      "n2": 678903,
+      "op": "subtracao",
+      "resultado": "-676883.00",
+      "id": "cFx7ArTZ5KE"
+    },
+    {
+      "n1": 7654,
+      "n2": 23545,
+      "op": "subtracao",
+      "resultado": "-15891.00",
+      "id": "6Lrk4TPbwuY"
+    }
+  ],
   "$schema": "./node_modules/json-server/schema.json"
 }
